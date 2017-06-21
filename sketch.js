@@ -4,7 +4,7 @@ var gravity;
 var fireworks = [];
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(1000, 400);
   gravity = createVector(0, 0.2);
   for (var i = 0; i < 5; ++i)
     fireworks.push(new FireWork());
